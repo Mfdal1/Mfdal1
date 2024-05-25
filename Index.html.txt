@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #ff0000; /* YouTube red */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .bio {
+            text-align: justify;
+        }
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <h2>Researcher from Morocco</h2>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="bio">
+            <p>Add your bio or summary here...</p>
+        </div>
+        <h2>Portfolio</h2>
+        <p>Add your portfolio items or projects here...</p>
+        <h2>Contact</h2>
+        <p>Add your contact information here...</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
